@@ -124,13 +124,9 @@ module.exports = {
   },
   stylus: {
     use: [
-      {{#if_eq grid "jeet"}}
       require('jeet')(),
-      {{/if_eq}}
-      {{#if_eq grid "lost"}}
-      require('poststylus')(require('lost')()),
-      {{/if_eq}}
-      require('rupture')()
+      require('rupture')(),
+      require('nib')()
     ],
     import: [
       path.resolve(__dirname, '../src/styles/index.styl')

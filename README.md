@@ -1,25 +1,25 @@
 ![logo](template/src/assets/logo.png?raw=true)
 
-# bourgeon
+# vuepack
 
-> Bourgeon is an opinionated-featured VueJS 2.0 setup for Webpack
+> Vuepack is an opinionated-featured VueJS 2.0 setup for Webpack
 
 > The setup includes hot-reload, lint-on-save, unit testing, css extraction, vuex, advanced routing, i18n, SVG sprite sheets and stylus with some helpers. Almost everything is optional and you can select which sugars you want on init
 
 ## What's different
 
-This template is a fork of the official [webpack](https://github.com/vuejs-templates/webpack) template. A few more opinionated features and conventions are bundled with Bourgeon:
+This template is a fork of the official [webpack](https://github.com/vuejs-templates/webpack) template. A few more opinionated features and conventions are bundled with vuepack:
 
-- **[VueX](https://rayfranco.github.io/bourgeon/store.html)** installed and ready to use
-- **[Routing](https://rayfranco.github.io/bourgeon/routing.html)** using official [vue-router](https://github.com/vuejs/vue-router) and conventions
-- **[i18n](https://rayfranco.github.io/bourgeon/i18n.html)** using [vue-i18n](https://github.com/kazupon/vue-i18n), [yaml-loader](https://github.com/okonet/yaml-loader) and conventions
-- **[Store](https://rayfranco.github.io/bourgeon/store.html)** if not using vuex, a simple convention for sharing data between components
-- **[SVG Sprites](https://rayfranco.github.io/bourgeon/svg.html)** using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader) and conventions
-- **[Stylus](https://rayfranco.github.io/bourgeon/stylus.html)** using [stylus-loader](https://github.com/shama/stylus-loader) and some custom mixins
+- **[VueX](https://msthomaz.github.io/vuepack/store.html)** installed and ready to use
+- **[Routing](https://msthomaz.github.io/vuepack/routing.html)** using official [vue-router](https://github.com/vuejs/vue-router) and conventions
+- **[i18n](https://msthomaz.github.io/vuepack/i18n.html)** using [vue-i18n](https://github.com/kazupon/vue-i18n), [yaml-loader](https://github.com/okonet/yaml-loader) and conventions
+- **[Store](https://msthomaz.github.io/vuepack/store.html)** if not using vuex, a simple convention for sharing data between components
+- **[SVG Sprites](https://msthomaz.github.io/vuepack/svg.html)** using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader) and conventions
+- **[Stylus](https://msthomaz.github.io/vuepack/stylus.html)** using [stylus-loader](https://github.com/shama/stylus-loader) and some custom mixins
 
 ## Documentation
 
-- [For this template](http://rayfranco.github.io/bourgeon): common questions specific to this template are answered and each part is described in greater detail
+- [For this template](http://msthomaz.github.io/vuepack): common questions specific to this template are answered and each part is described in greater detail
 - [For Vue 2.0](http://rc.vuejs.org/guide/): general information about how to work with Vue, not specific to this template
 
 ## Usage
@@ -28,7 +28,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init rayfranco/bourgeon my-project
+$ vue init msthomaz/vuepack my-project
 $ cd my-project
 $ npm install
 $ npm run dev

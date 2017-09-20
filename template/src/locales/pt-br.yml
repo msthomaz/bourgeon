@@ -1,0 +1,14 @@
+messages:
+  welcome: Bem vindo ao seu Vuepack app!
+{{#if routing}}
+  hello: Olá {name}!
+  {{#if vuex}}
+  counter: Você clicou neste botão {n} vezes | Você clicou neste botão {n} vezes
+  {{/if}}
+buttons:
+  home: Home
+  hello: Olá
+{{/if}}
+locales:
+  pt-br: Português
+  en: Inglês

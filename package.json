@@ -1,8 +1,8 @@
 {
-  "name": "bourgeon",
-  "version": "2.3.0",
+  "name": "vuepack",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "Bourgeon is an opinionated-featured VueJS 2.0 setup for Webpack",
+  "description": "Vuepack is an opinionated-featured VueJS 2.0 setup for Webpack",
   "scripts": {
     "docs": "cd docs && gitbook serve",
     "deploy-docs": "bash ./deploy-docs.sh"

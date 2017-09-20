@@ -1,5 +1,5 @@
 messages:
-  welcome: Welcome to your Bourgeon app!
+  welcome: Welcome to your Vuepack app!
 {{#if routing}}
   hello: Hello {name}!
   {{#if vuex}}
@@ -10,5 +10,5 @@ buttons:
   hello: Hello
 {{/if}}
 locales:
-  fr: French
+  pt-br: Portuguese
   en: English

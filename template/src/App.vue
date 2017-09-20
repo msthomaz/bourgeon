@@ -57,23 +57,16 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../node_modules/typus" // base styles
-@import "styles/theme"
+  @import "styles/theme"
 
-html
-  {{#if_eq grid "lost"}}
-  lost-align middle-center // lostgrid
-  height 100%
-  {{/if_eq}}
-  +below(600px) // rupture
-    font-size 50%
+  html
+    +below(600px) // rupture
+      font-size 50%
 
-#app
-  {{#if_eq grid "jeet"}}
-  align() // jeet
-  {{/if_eq}}
-  text-align center
+  #app
+    align()
+    text-align center
 
-.icon-logo
-  margin-bottom 2.5rem
+  .icon-logo
+    margin-bottom 2.5rem
 </style>
