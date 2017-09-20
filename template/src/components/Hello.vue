@@ -12,9 +12,9 @@ export default {
   computed: {
     msg () {
       {{#if i18n}}
-        return this.$t('messages.hello', { name: this.name })
+      return this.$t('messages.hello', { name: this.name })
       {{else}}
-        return `Hello ${this.name}!`
+      return `Hello ${this.name}!`
       {{/if}}
     },
     name () {
